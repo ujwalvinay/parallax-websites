@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+*{
+    
+    border-style: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: linear-gradient(to right, rgb(17, 124, 231) , yellow);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+}
+header img
+{
+    max-width: 150px;
+    height: auto;
+}
+li,a,button
+{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color:whitesmoke;
+    
+}
+li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.nav_link a
+{
+    transition: all 0.3s ease;
+}
+.nav_link a:hover
+{
+    color: black;
+}
+button
+{
+    border: none;
+    padding: 9px;
+    background-color: rgba(red, green, blue, 1);
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover
+{
+    background-color: rgba(red, green, blue, 0.6);
+}
