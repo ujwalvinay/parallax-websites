@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600&display=swap');
 *{
     
     border-style: border-box;
@@ -26,8 +23,8 @@ header img
 }
 li,a,button
 {
-    font-family: 'Fuzzy Bubbles', cursive;
-    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
     text-decoration: none;
     color:black;
     
@@ -71,10 +68,11 @@ button
     
     min-height: 500px;
 }
+
 #title
 {
-    font-size: 80px;
-    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color: white;  
     padding-left: 20px;
     padding-top: 150px;
@@ -85,24 +83,59 @@ button
     padding: 20px;
 }
 .Intro h3{
-    font-family: 'Fuzzy Bubbles', cursive ;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-decoration: underline;
     padding: 10px;
     font-size: 25px;
 }
 p{
     color: black;
-    font-family: 'Fuzzy Bubbles', cursive ;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
     padding: 0 20%;
 }
 .Showcase
 {
     display: inline-block;
-    margin-left: 10%;
+    
 }
 .img-showcase
 {
+    padding: 20px;
     width: 30%;
     height: auto;
+}
+.category
+{
+    padding-top: 30px;
+    display: flex;
+    margin-left: 25%;
+}
+.category-menu a
+{
+    font-size: 30px;
+    padding: 10px;
+}
+.category-menu a:hover
+{
+    text-decoration: underline;
+}
+
+/*----------------- Sport.html............*/
+.img2
+{
+    background-image: url("https://i0.wp.com/canadamotoguide.com/wp-content/uploads/2021/09/2021-Harley-Davidson-Sportster-S-2.jpg");
+    min-height: 500px;;
+}
+.sport-heading
+{
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.sportster-data
+{
+    font-size: 25px;
+    letter-spacing: 2px;
 }
